@@ -16,7 +16,7 @@ import cucumber.api.java.en.When;
 public class SearchCarsSteps {
 
 	HomePageActions homePageActions = new HomePageActions();
-	SearchPageActions searchPageActions;
+	SearchPageActions searchPageActions = new SearchPageActions();
 	
 	
 	
